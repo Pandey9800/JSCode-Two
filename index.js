@@ -139,7 +139,21 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+// let arr = [2, 4, 6, 10]
 
+// let a = arr.map((b, index, array) =>
+// {
+//     console.log(b, index, array)
+//     return b + index
+// })
+// console.log(a)
 
+// let a = arr.filter((a) =>
+// {
+//     return a < 5
+// })
+// console.log(a)
+
+//------------------------------------------------------------------------------
 
 
