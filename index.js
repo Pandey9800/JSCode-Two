@@ -78,18 +78,68 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-let arr = [1, 3, 'Ravi', 'Got a', '7.5 Inches Long and 5.5 Inches thick Cock', 5]
-for (let i in arr)
-{
-    console.log(arr[i])
-}
+// let arr = [1, 3, 'Ravi', 'Got a', '7.5 Inches Long and 5.5 Inches thick Cock', 5]
+// for (let i in arr)
+// {
+//     console.log(arr[i])
+// }
 
-//Arrays Methods
-let b = arr.toString()
-console.log(typeof b)
-let c = arr.join('-')
-console.log(c)
-console.log(typeof arr)
-let s = arr.pop()
-console.log(arr, s)
+//------------------------------------------------------------------------------
+
+// //Arrays Methods
+// let b = arr.toString()
+// console.log(typeof b)
+// let c = arr.join('-')
+// console.log(c)
+// console.log(typeof arr)
+// let s = arr.pop()
+// console.log(arr, s)
+
+//------------------------------------------------------------------------------
+
+// let ar = [1, 2]
+// let arr = [3, 4]
+// let arra = [5, 6]
+// let con = ar.concat(arr, arra)
+// console.log(con)
+
+//------------------------------------------------------------------------------
+//Normal For Loop to Traverce the array
+// let arr = [1, 20, 50, 8, 69]
+// for (let i = 0; i < arr.length; i++)
+// {
+//     console.log(arr[i])
+// }
+
+//forEach Loop to traverce the array
+// arr.forEach((ele) =>
+// {
+//     console.log(ele)
+// });
+
+//------------------------------------------------------------------------------
+//Create array from another object. here String
+// let n = 'ravi'
+// let arr = Array.from(n)
+// console.log(arr[2])
+
+//------------------------------------------------------------------------------
+//for...of
+// for (let i of arr)
+// {
+//     console.log(i)
+// }
+
+//------------------------------------------------------------------------------
+//for...In
+// for (let i in arr)
+// {
+//     console.log(i)
+// }
+
+//------------------------------------------------------------------------------
+
+
+
+
 
