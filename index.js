@@ -148,11 +148,39 @@ console.log(su)
 // })
 // console.log(a)
 
-// let a = arr.filter((a) =>
+// let a = arr.filter((v) =>
 // {
-//     return a < 5
+//     return v < 5
 // })
 // console.log(a)
+
+// const sum = (a, b) =>
+// {
+//     return a + b
+// }
+
+// let b = arr.reduce(sum)
+// console.log(b)
+
+//------------------------------------------------------------------------------
+
+// let arr = [1,2,3,4]
+// let a = prompt('Enter a number')
+// a = Number.parseInt(a)
+// arr.push(a)
+// console.log(arr)
+
+//------------------------------------------------------------------------------
+
+// let arr = [1, 2, 3, 4]
+// do
+// {
+//     let a = prompt('Enter a number')
+//     a = Number.parseInt(a)
+//     arr.push(a)
+//     console.log(arr)
+// } while (a != 0)
+// console.log(arr)
 
 //------------------------------------------------------------------------------
 
