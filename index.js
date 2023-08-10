@@ -211,8 +211,16 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+// alert('hello')
 
+// console.log('log')
+// console.info('Info')
+// console.warn('warning')
+// console.error('err')
+// console.assert('err' != false)
+// console.assert('err' == false)
 
+//------------------------------------------------------------------------------
 
 
 
