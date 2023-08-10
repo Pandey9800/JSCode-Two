@@ -240,33 +240,122 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-alert('Enter the Value of a')
-let a = prompt('Enter a Here', 10)
-a = Number.parseInt(a)
-let write = confirm('Do you want to write the value of a to the document?')
-if (write)
-{
-    document.write(a)
-}
-else
-{
-    document.write('Allow me to write it on the document!')
-}
+// alert('Enter the Value of a')
+// let a = prompt('Enter a Here', 10)
+// a = Number.parseInt(a)
+// let write = confirm('Do you want to write the value of a to the document?')
+// if (write)
+// {
+//     document.write(a)
+// }
+// else
+// {
+//     document.write('Allow me to write it on the document!')
+// }
 
 //------------------------------------------------------------------------------
 
+// document.body.style.background = 'pink'
 
+//------------------------------------------------------------------------------
 
+//This Works but...
+// let age = prompt('enter your age boo')
+// age = Number.parseInt(age)
+// if(age<18){
+// alert('you can not drive baby')
+// }
+// else{
+// alert('Drive Safely!')
+// }
 
+//Let us write the same thing using an function
 
+// let age = prompt('enter your age')
+// age = Number.parseInt(age)
+// const driveAge = (age) =>
+// {
+//     return age >= 18 ? true : false
 
+// }
+// if (driveAge(age))
+// {
+//     alert('You can Drive')
+// } else
+// {
+//     alert('You Can Not Drive')
+// }
 
+//------------------------------------------------------------------------------
 
+//Can Drive Test using loop
+// let runagain = true
+// const driveAge = (age) =>
+// {
+//     return age >= 18 ? true : false
 
+// }
+// while (runagain)
+// {
+//     let age = prompt('enter your age')
+//     age = Number.parseInt(age)
+//     if (driveAge(age))
+//     {
+//         alert('You can Drive')
+//     } else
+//     {
+//         alert('You Can Not Drive')
+//     }
+//     runagain = confirm('Do you want to take the test again?')
+// }
 
+//------------------------------------------------------------------------------
 
+// let runagain = true
+// const driveAge = (age) =>
+// {
+//     return age >= 18 ? true : false
 
+// }
+// while (runagain)
+// {
+//     let age = prompt('enter your age')
+//     age = Number.parseInt(age)
+//     if (age < 0)
+//     {
+//         alert('Enter a valid age')
+//         break
+//     } else
+//     {
+//         if (driveAge(age))
+//         {
+//             alert('You can Drive')
+//         } else
+//         {
+//             alert('You Can Not Drive')
+//         }
+//     }
+//     runagain = confirm('Do you want to take the test again?')
+// }
 
+//------------------------------------------------------------------------------
+
+// let num = prompt('enter a number')
+// num = Number.parseInt(num)
+// if (num > 4)
+// {
+//     location.href = 'https://google.com'
+// } else
+// {
+//     alert(`the number you entered is = ${num}`)
+// }
+
+//------------------------------------------------------------------------------
+
+// let color = prompt('Enter the color you want to set this page to')
+// document.body.style.background = color
+
+//------------------------------------------------------------------------------
 
 
 
