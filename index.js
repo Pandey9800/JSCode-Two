@@ -385,9 +385,55 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-const changeBodyRed = ()=> {
-    document.body.firstElementChild.style.background = 'red'
-}
+// const changeBodyRed = ()=> {
+//     document.body.firstElementChild.style.background = 'red'
+// }
+
+//------------------------------------------------------------------------------
+
+// console.log(typeof document)
+// console.log(typeof window)
+
+//------------------------------------------------------------------------------
+
+// let t = document.body.firstElementChild.firstElementChild
+// console.log(t)
+// console.log(t.caption)
+// console.log(t.tHead)
+// console.log(t.tFoot)
+
+//------------------------------------------------------------------------------
+
+// let ct = document.getElementsByClassName('card-title')[0]
+// ct.style.color = 'red'
+
+//------------------------------------------------------------------------------
+
+// let ct = document.getElementById('fone')
+// ct.style.color = 'blue'
+
+//------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
