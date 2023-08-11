@@ -414,8 +414,18 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+let ct = document.querySelectorAll('.card-title')
+ct[0].style.color = 'red'
+ct[1].style.color = 'blue'
+ct[2].style.color = 'green'
 
+document.querySelector('.this').style.color = 'yellow'
+document.querySelector('.this').style.background = 'darkblue'
 
+console.log(document.getElementsByTagName('a'))
+console.log(document.querySelector('.card').getElementsByTagName('a'))
+
+console.log(document.getElementsByName('search'))
 
 
 
