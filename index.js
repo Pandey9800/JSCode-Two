@@ -370,12 +370,24 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+// console.log(document.body.firstChild)
+// a = document.body.firstChild
 
+// console.log(a.parentNode)
+// console.log(a.parentElement)
+// console.log(a.firstChild.nextSibling)
 
+//------------------------------------------------------------------------------
 
+// let b = document.body
+// console.log('First child of B is: ', b.firstChild)
+// console.log('First Element child of B is: ', b.firstElementChild)
 
+//------------------------------------------------------------------------------
 
-
+const changeBodyRed = ()=> {
+    document.body.firstElementChild.style.background = 'red'
+}
 
 
 
