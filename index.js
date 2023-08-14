@@ -429,16 +429,58 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-let id1 = document.getElementById('id1')
-let sp1 = document.getElementById('sp1')
-console.log(id1)
-console.log(id1.matches('.class'))
-console.log(id1.matches('.box'))
-console.log(sp1.closest('#sp1'))
-console.log(id1.contains(sp1))
-console.log(sp1.contains(sp1))
-console.log(sp1.contains(id1))
+// let id1 = document.getElementById('id1')
+// let sp1 = document.getElementById('sp1')
+// console.log(id1)
+// console.log(id1.matches('.class'))
+// console.log(id1.matches('.box'))
+// console.log(sp1.closest('#sp1'))
+// console.log(id1.contains(sp1))
+// console.log(sp1.contains(sp1))
+// console.log(sp1.contains(id1))
 
+//------------------------------------------------------------------------------
+
+// let nav = document.getElementsByTagName('nav')[0].firstElementChild.style.color = 'red'
+// let navv = document.getElementsByTagName('nav')[0].lastElementChild.style.color = 'green'
+// let nav = document.getElementsByTagName('nav')[0].firstElementChild.style.color = 'green'
+
+//------------------------------------------------------------------------------
+
+//S W G Game JS CODE
+
+let user = prompt('enter S for snake W water or G for gun')
+let cpuI = Math.floor(Math.random() * 3)
+let cpu = ["S", "W", "G"][cpuI]
+
+let match = (cpu, user) => {
+    if(cpu === user){
+        return 'No Body'
+    }
+    else if (cpu === "S" && user === "W") {
+        return "cpu"
+    }    
+    else if (cpu === "S" && user === "G") {
+        return "user"
+    }
+    else if (cpu === "G" && user === "W") {
+        return "user"
+    }
+    else if (cpu === "G" && user === "S") {
+        return "cpu"
+    }
+    else if (cpu === "W" && user === "G") {
+        return "cpu"
+    }
+    else if (cpu === "W" && user === "S") {
+        return "user"
+    }
+}
+let result = match(cpu, user)
+
+document.write(`CPU :- ${cpu} <br> USER :- ${user} <br> <br> The Winner is : ${result.toUpperCase()}`)
+
+//------------------------------------------------------------------------------
 
 
 

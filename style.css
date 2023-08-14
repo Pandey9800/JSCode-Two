@@ -2,6 +2,9 @@ body,
 html {
     height: 100%;
     width: 100%;
+    font-size: 25px;
+}
+*{
     margin: 0;
     padding: 0;
 }
@@ -13,3 +16,11 @@ table tr th{
     border: solid  2px;
 } */
 
+ul{
+    display: flex;
+    background: cyan;
+}
+nav li{
+    list-style: none;
+    padding: 0 23px;
+}
