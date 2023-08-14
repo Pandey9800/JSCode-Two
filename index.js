@@ -449,44 +449,58 @@ console.log(su)
 
 //S W G Game JS CODE
 
-let user = prompt('enter S for snake W water or G for gun')
-let cpuI = Math.floor(Math.random() * 3)
-let cpu = ["S", "W", "G"][cpuI]
+// let user = prompt('enter S for snake W water or G for gun')
+// let cpuI = Math.floor(Math.random() * 3)
+// let cpu = ["S", "W", "G"][cpuI]
 
-let match = (cpu, user) => {
-    if(cpu === user){
-        return 'No Body'
-    }
-    else if (cpu === "S" && user === "W") {
-        return "cpu"
-    }    
-    else if (cpu === "S" && user === "G") {
-        return "user"
-    }
-    else if (cpu === "G" && user === "W") {
-        return "user"
-    }
-    else if (cpu === "G" && user === "S") {
-        return "cpu"
-    }
-    else if (cpu === "W" && user === "G") {
-        return "cpu"
-    }
-    else if (cpu === "W" && user === "S") {
-        return "user"
-    }
-}
-let result = match(cpu, user)
+// let match = (cpu, user) => {
+//     if(cpu === user){
+//         return 'No Body'
+//     }
+//     else if (cpu === "S" && user === "W") {
+//         return "cpu"
+//     }    
+//     else if (cpu === "S" && user === "G") {
+//         return "user"
+//     }
+//     else if (cpu === "G" && user === "W") {
+//         return "user"
+//     }
+//     else if (cpu === "G" && user === "S") {
+//         return "cpu"
+//     }
+//     else if (cpu === "W" && user === "G") {
+//         return "cpu"
+//     }
+//     else if (cpu === "W" && user === "S") {
+//         return "user"
+//     }
+// }
+// let result = match(cpu, user)
 
-document.write(`CPU :- ${cpu} <br> USER :- ${user} <br> <br> The Winner is : ${result.toUpperCase()}`)
+// document.write(`CPU :- ${cpu} <br> USER :- ${user} <br> <br> The Winner is : ${result.toUpperCase()}`)
 
 //------------------------------------------------------------------------------
 
+// console.log(document.getElementsByTagName('span')[0]) // This will print the Element
+// console.dir(document.getElementsByTagName('span')[0]) // This will print it as an Object
 
+// console.log(document.body.firstChild.nodeName)
+// console.log(document.body.firstElementChild.nodeName)
 
+// console.log(first.innerHTML) // These can be done only with the Elements of the HTML like <p> <h1> etc...
+// console.log(first.innerHTML = 'Radhe Radhe') // These can be done only with the Elements of the HTML like <p> <h1> etc...
 
+// console.log(first.outerHTML)
+// console.log(first.outerHTML = '<div>Radhe Krishna</div>')
 
+// console.log(document.body.firstChild) // These can be done with text comment values
+// console.log(document.body.firstChild.data) // These can be done with text comment values
+// console.log(document.body.firstChild.nodeValue) // These can be done with text comment values
 
+// console.log(document.body.textContent) // It is used to access only the Text's of an HTML page no tags will be included.
+
+// first.hidden = false // Used to unhide the hidden parts of the page
 
 
 
