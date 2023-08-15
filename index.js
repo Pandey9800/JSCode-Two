@@ -502,7 +502,10 @@ console.log(su)
 
 // first.hidden = false // Used to unhide the hidden parts of the page
 
+//------------------------------------------------------------------------------
 
+document.getElementById('HK').style.color = 'Blue'
+document.getElementById('HK').style.background = 'cyan'
 
 
 
