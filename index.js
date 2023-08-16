@@ -518,6 +518,7 @@ console.log(su)
 // console.log(a.attributes)
 
 //------------------------------------------------------------------------------
+//Custom Attributes Creation
 
 // console.log(first.dataset)
 // console.log(first.dataset.game)
@@ -525,7 +526,7 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-// let a = document.getElementsByTagName('div')[0]
+let a = document.getElementsByTagName('div')[0]
 // a.innerHTML = a.innerHTML + '<h1>Yo This H1 Tag was inserted By JS!</h1>'
 
 // let div = document.createElement('div')
@@ -538,6 +539,169 @@ console.log(su)
 // a.replaceWith(div) 
 
 //------------------------------------------------------------------------------
+
+first.insertAdjacentHTML('beforeend', '')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
