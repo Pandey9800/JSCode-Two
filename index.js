@@ -528,7 +528,14 @@ console.log(su)
 // let a = document.getElementsByTagName('div')[0]
 // a.innerHTML = a.innerHTML + '<h1>Yo This H1 Tag was inserted By JS!</h1>'
 
-
+// let div = document.createElement('div')
+// a.className = 'aloha'
+// div.innerHTML = '<h1>Radhe Radhe</h1>'
+// document.body.append(div) 
+// document.body.prepend(div) 
+// a.before(div) 
+// a.after(div) 
+// a.replaceWith(div) 
 
 //------------------------------------------------------------------------------
 
