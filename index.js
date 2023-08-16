@@ -504,11 +504,20 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-document.getElementById('HK').style.color = 'Blue'
-document.getElementById('HK').style.background = 'cyan'
+// document.getElementById('HK').style.color = 'Blue'
+// document.getElementById('HK').style.background = 'cyan'
 
+//------------------------------------------------------------------------------
+// let a = document.getElementById('first')
+// a.getAttribute('class')
+// console.log(a)
+// console.log(a.hasAttribute('class'))
+// console.log(a.hasAttribute('style'))
+// // a.setAttribute('hidden', 'true')
+// // a.removeAttribute('class')
+// console.log(a.attributes)
 
-
+//------------------------------------------------------------------------------
 
 
 
