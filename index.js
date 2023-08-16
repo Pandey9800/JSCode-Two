@@ -519,13 +519,18 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+// console.log(first.dataset)
+// console.log(first.dataset.game)
+// console.log(first.dataset.player)
+
+//------------------------------------------------------------------------------
+
+// let a = document.getElementsByTagName('div')[0]
+// a.innerHTML = a.innerHTML + '<h1>Yo This H1 Tag was inserted By JS!</h1>'
 
 
 
-
-
-
-
+//------------------------------------------------------------------------------
 
 
 
