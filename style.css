@@ -24,3 +24,17 @@ nav li{
     list-style: none;
     padding: 0 23px;
 }
+
+.yellow{
+    background: yellow;
+    color: white;
+}
+
+.red{
+    background: red;
+    color: white;
+}
+
+.text-dark{
+    color: black;
+}

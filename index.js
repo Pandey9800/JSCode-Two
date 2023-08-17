@@ -557,7 +557,13 @@ let a = document.getElementsByTagName('div')[0]
 
 //------------------------------------------------------------------------------
 
-
+// first.className = 'text-dark red'
+// first.classList
+// first.classList.remove('text-dark')
+// first.classList.add('text-dark')
+// first.classList.toggle('text-dark')
+// first.classList.contains('text-dark')
+// first.classList.contains('red')
 
 
 
