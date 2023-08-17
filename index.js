@@ -565,9 +565,12 @@ let a = document.getElementsByTagName('div')[0]
 // first.classList.contains('text-dark')
 // first.classList.contains('red')
 
+//------------------------------------------------------------------------------
 
-
-
+setTimeout(function(){
+    alert("Inside of Time Out")
+},2000)
+    
 
 
 
