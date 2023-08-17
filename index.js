@@ -547,8 +547,10 @@ let a = document.getElementsByTagName('div')[0]
 
 //------------------------------------------------------------------------------
 
+// first.insertAdjacentHTML('beforebegin','<p>Hello</p>')
+// first.insertAdjacentHTML('afterend','<p>Bye</p>')
 
-
+//------------------------------------------------------------------------------
 
 
 
