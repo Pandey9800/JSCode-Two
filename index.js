@@ -526,7 +526,7 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-let a = document.getElementsByTagName('div')[0]
+// let a = document.getElementsByTagName('div')[0]
 // a.innerHTML = a.innerHTML + '<h1>Yo This H1 Tag was inserted By JS!</h1>'
 
 // let div = document.createElement('div')
@@ -567,31 +567,42 @@ let a = document.getElementsByTagName('div')[0]
 
 //------------------------------------------------------------------------------
 
-setTimeout(function(){
-    alert("Inside of Time Out")
-},2000)
-    
+// let a = setTimeout(function(){
+//     alert("Inside of Time Out")
+// }, 5000)
 
+// clearTimeout(a)
+// console.log(a)    
 
+//------------------------------------------------------------------------------
 
+// let b = prompt('Do you want to run the settimeout?')
+// if(b == 'n'){
+//     clearTimeout(a)
+// }
+// console.log(a)
 
+//------------------------------------------------------------------------------
 
+// const sum =(a,b) => {
+//     console.log('Im Running ' + (a+b))
+// }
+// setTimeout(sum, 2000, 2,6)
 
+//------------------------------------------------------------------------------
 
+// let a = setInterval(function() {
+//     alert('Inside of the Interval')
+// }, 3000)
 
+//------------------------------------------------------------------------------
 
+// function sum (a,b) {
+//     document.write('Yo <br>')
+// } 
+// setInterval(sum,1000)
 
-
-
-
-
-
-
-
-
-
-
-
+//------------------------------------------------------------------------------
 
 
 
