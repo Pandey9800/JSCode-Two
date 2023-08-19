@@ -619,21 +619,23 @@ console.log(su)
 
 //Also it is not necessary to make the fuction so raw we can assign the function to any variable as follows :-
 
-let x = ('click', () =>{
-    alert('Hey')
-})
+// let x = ('click', (e) =>{
+//     alert('Hey')
+//     console.log(e.target, e.clientX, e.clientY)
+//     // console.log(e)
+// })
 
-let y = ('click', () =>{
-    alert('Hey Yo')
-})
+// let y = ('click', () =>{
+//     alert('Hey Yo')
+// })
 
-btn.addEventListener('click', x)
-btn.addEventListener('click', y)
+// btn.addEventListener('click', x)
+// btn.addEventListener('click', y)
 
-let a = prompt('Enter 2 to stop that alert or enter any number to see both of them on button click')
-if(a == 2){
-    btn.removeEventListener('click', y)
-}
+// let a = prompt('Enter 2 to stop that alert or enter any number to see both of them on button click')
+// if(a == 2){
+//     btn.removeEventListener('click', y)
+// }
 
 
 
