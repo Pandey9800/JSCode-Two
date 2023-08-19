@@ -604,8 +604,20 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+btn.addEventListener('click', () => {
+    alert('Hey')
+})
+
+btn.addEventListener('click', () => {
+    alert('Hey YO')
+})
 
 
+
+//That Can be done using this type of function creation too
+// btn.addEventListener('click', function() {
+//     alert('Hey YO')
+// })
 
 
 
