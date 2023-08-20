@@ -639,22 +639,29 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-const sum = (a,b) => {
-   return a+b
-}
-let x = prompt(`Enter X's Value`)
-x = Number.parseInt(x)
-let y = prompt(`Enter Y's Value`)
-y = Number.parseInt(y)
+// const sum = (a,b) => {
+//    return a+b
+// }
+// let x = prompt(`Enter X's Value`)
+// x = Number.parseInt(x)
+// let y = prompt(`Enter Y's Value`)
+// y = Number.parseInt(y)
 
-let summ = sum(x,y)
-alert(summ)
+// let summ = sum(x,y)
+// alert(summ)
 
+//------------------------------------------------------------------------------
 
+// const divi = (x) =>{
+//     return x / 2
+// }
 
+// let a = prompt('enter a number to be divided by 2')
+// a = Number.parseInt(a)
+// let aa = divi(a)
+// document.write(`The value of ${a} Divided by 2 is equal to ${aa}`)
 
-
-
+//------------------------------------------------------------------------------
 
 
 
