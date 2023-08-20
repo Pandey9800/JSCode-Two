@@ -637,10 +637,18 @@ console.log(su)
 //     btn.removeEventListener('click', y)
 // }
 
+//------------------------------------------------------------------------------
 
+const sum = (a,b) => {
+   return a+b
+}
+let x = prompt(`Enter X's Value`)
+x = Number.parseInt(x)
+let y = prompt(`Enter Y's Value`)
+y = Number.parseInt(y)
 
-
-
+let summ = sum(x,y)
+alert(summ)
 
 
 
