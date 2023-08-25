@@ -38,3 +38,18 @@ nav li{
 .text-dark{
     color: black;
 }
+
+#det{
+    width: 40%;
+    height: 30%;
+    margin: auto;
+    border: 2px solid red;
+    background: yellowgreen;
+}
+#det h1{
+    color: aqua;
+}
+
+#det p{
+    color: brown;
+}
