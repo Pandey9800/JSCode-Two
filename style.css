@@ -45,6 +45,7 @@ nav li{
     margin: auto;
     border: 2px solid red;
     background: yellowgreen;
+    text-align: center;
 }
 #det h1{
     color: aqua;
