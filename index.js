@@ -663,6 +663,22 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+let frd = document.querySelector("#frd");
+let btn = document.querySelector("#btn");
+let check = 0;
+
+btn.addEventListener("click", function() {
+    if (check === 0) {
+        frd.innerHTML = "New Friend Added";
+        btn.innerHTML = "Remove Friend";
+        check = 1;
+    } else {
+        frd.innerHTML = "Friend";
+        btn.innerHTML = "Add Friend";
+        check = 0;
+    }
+});
+
 
 
 
