@@ -3,6 +3,8 @@ html {
     height: 100%;
     width: 100%;
     font-size: 25px;
+    /* margin: auto; */
+    padding: auto;
 }
 *{
     margin: 0;
@@ -53,4 +55,9 @@ nav li{
 
 #det p{
     color: brown;
+}
+
+
+#frd{
+    color: green;
 }
