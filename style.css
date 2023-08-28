@@ -61,3 +61,13 @@ nav li{
 #frd{
     color: green;
 }
+
+main{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #2b2b3f;
+}
