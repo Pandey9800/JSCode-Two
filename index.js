@@ -663,23 +663,23 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-let frd = document.querySelector("h3")
-let add = document.querySelector("#add")
-let check = 0
+// let frd = document.querySelector("h3")
+// let add = document.querySelector("#add")
+// let check = 0
 
-add.addEventListener("click",function(){
-    if(check==0){
-        frd.innerHTML = "Friend"
-        frd.style.color = "green"
-        add.innerHTML = "Lover"
-        check = 1
-    }else{
-        frd.innerHTML = "Lover"
-        frd.style.color = "red"
-        add.innerHTML = "Friend"
-        check = 0
-    }
-})
+// add.addEventListener("click",function(){
+//     if(check==0){
+//         frd.innerHTML = "Friend"
+//         frd.style.color = "green"
+//         add.innerHTML = "Lover"
+//         check = 1
+//     }else{
+//         frd.innerHTML = "Lover"
+//         frd.style.color = "red"
+//         add.innerHTML = "Friend"
+//         check = 0
+//     }
+// })
 
 
 
