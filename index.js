@@ -685,7 +685,7 @@ console.log(su)
 
 let coun = document.getElementById('add')
 coun.addEventListener('click',()=>{
-    return 0+1
+    
 })
 
 
