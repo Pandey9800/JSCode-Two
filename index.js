@@ -683,11 +683,14 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-let coun = document.getElementById('add')
-let frd = document.getElementById('frd')
-coun.addEventListener('click',()=>{
-    frd = 'Clicked'
-})
+// let coun = document.getElementById('add')
+// let frd = document.getElementById('frd')
+// coun.addEventListener('click',()=>{
+//     frd = 'Clicked'
+// })
+
+//------------------------------------------------------------------------------
+
 
 
 
