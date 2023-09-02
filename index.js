@@ -686,7 +686,7 @@ console.log(su)
 let coun = document.getElementById('add')
 let frd = document.getElementById('frd')
 coun.addEventListener('click',()=>{
-    frd = document.write('Clicked')
+    frd = 'Clicked'
 })
 
 
