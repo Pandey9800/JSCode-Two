@@ -713,9 +713,177 @@ console.log(su)
 // }
 
 //------------------------------------------------------------------------------
-setInterval(async () => {
-    document.querySelector("#bulb").classList.toggle("bulb")
-}, 300);
+// setInterval(async () => {
+//     document.querySelector("#bulb").classList.toggle("bulb")
+// }, 300);
+//------------------------------------------------------------------------------
+
+let myjokes = [
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "A byte walks into a bar looking miserable.\nThe bartender asks it: \"What's wrong buddy?\"\n\"Parity error.\" it replies. \n\"Ah that makes sense, I thought you looked a bit off.\"",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 24,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "I'd tell you a joke about NAT but I would have to translate.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "safe": true,
+        "id": 319,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "A guy walks into a bar and asks for 1.4 root beers.\nThe bartender says \"I'll have to charge you extra, that's a root beer float\".\nThe guy says \"In that case, better make it a double.\"",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 2,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "If Bill Gates had a dime for every time Windows crashed ... Oh wait, he does.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 22,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "I've got a really good UDP joke to tell you but I don’t know if you'll get it.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 0,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "\"Honey, go to the store and buy some eggs.\"\n\"OK.\"\n\"Oh and while you're there, get some milk.\"\nHe never returned.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 18,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "There are only 10 kinds of people in this world: those who know binary and those who don't.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 35,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "\"Knock, knock.\"\n\"Who's there?\"\n\n[very long pause]\n\n\"Java.\"",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 36,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "Hey Girl,\nRoses are #ff0000,\nViolets are #0000ff,\nI use hex codes,\nBut I'd use RGB for you.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": false
+        },
+        "id": 41,
+        "safe": true,
+        "lang": "en"
+    },
+    {
+        "category": "Programming",
+        "type": "single",
+        "joke": "Your mama's so FAT she can't save files bigger than 4GB.",
+        "flags": {
+            "nsfw": false,
+            "religious": false,
+            "political": false,
+            "racist": false,
+            "sexist": false,
+            "explicit": true
+        },
+        "id": 9,
+        "safe": false,
+        "lang": "en"
+    }
+]
+
+let index = Math.floor(Math.random() * (myjokes.length-1))
+let joke = document.getElementById('jokes')
+joke.innerHTML = myjokes[index].joke
 
 //------------------------------------------------------------------------------
 
