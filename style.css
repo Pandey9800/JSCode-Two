@@ -73,3 +73,11 @@ main{
 } */
 
 
+.bulb{
+    background: yellow;
+}
+
+.bulbcontiner{
+    height: 341px;
+    width: 341px;
+}
