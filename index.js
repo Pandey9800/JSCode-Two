@@ -690,12 +690,27 @@ console.log(su)
 // })
 
 //------------------------------------------------------------------------------
-
-const changeBodyRed = ()=> {
-    document.body.firstElementChild.style.background = 'red'
+let x = () => {
+    alert("Yolo")
 }
-
-
+let y = () => {
+    alert("Hare Krishna!")
+}
+let w = () => {
+    alert("Choose Either 1 or 2")
+}
+let z = prompt("enter a number")
+z = Number.parseInt(z)
+const btnn = document.getElementById('btn')
+if(z == 1){
+    btnn.addEventListener('click', x)
+}
+else if(z == 2){
+    btnn.addEventListener('click', y)
+}
+else{
+    btnn.addEventListener('click', w)   
+}
 //------------------------------------------------------------------------------
 
 
