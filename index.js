@@ -889,7 +889,7 @@ console.log(su)
 
 // document.getElementById('jokes')
 // document.getElementById('')
-document.getElementById('')
+// document.getElementById('')
 
 //------------------------------------------------------------------------------
 
