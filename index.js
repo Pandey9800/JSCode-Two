@@ -893,6 +893,10 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
+a = prompt('What is your Name?')
+b = prompt('What is your Age?')
+c = prompt('What is your favorite Color?')
+console.log(a + ' is ' + b + ' Years Old & Has ' + c + ' as favorite color.')
 
 
 
