@@ -910,7 +910,6 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 //We Need A Job In IT Sector + I Need My MCAs Degree Please Help Me Krishna JI
-//Kanha Please Please Please Help Me.
 
 
 
