@@ -902,7 +902,7 @@ console.log(su)
 
 
 //Asyncronous Programming
-console.log('Start')
+// console.log('Start')
 setTimeout(()=>{
     console.log('Hey Im Great!')
 },3000)
