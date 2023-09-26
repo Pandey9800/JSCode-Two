@@ -896,7 +896,7 @@ console.log(su)
 // Syncronous Programming
 // p = document.getElementById('written')
 // a = prompt('What is your Name?')
-b = prompt('What is your Age?')
+// b = prompt('What is your Age?')
 c = prompt('What is your favorite Color?')
 p.textContent = a + ' is ' + b + ' Years Old & Has ' + c + ' as favorite color.'
 
