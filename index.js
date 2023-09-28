@@ -675,7 +675,7 @@ console.log(su)
     //     check = 1
     // }else{
         // frd.innerHTML = "Lover"
-        frd.style.color = "red"
+        // frd.style.color = "red"
         add.innerHTML = "Friend"
         check = 0
     }
