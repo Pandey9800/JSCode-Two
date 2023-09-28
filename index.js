@@ -663,7 +663,7 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-let frd = document.querySelector("h3")
+// let frd = document.querySelector("h3")
 let add = document.querySelector("#add")
 let check = 0
 
