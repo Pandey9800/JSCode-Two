@@ -668,7 +668,7 @@ console.log(su)
 // let check = 0
 
 // add.addEventListener("click",function(){
-    if(check==0){
+    // if(check==0){
         frd.innerHTML = "Friend"
         frd.style.color = "green"
         add.innerHTML = "Lover"
