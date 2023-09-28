@@ -665,9 +665,9 @@ console.log(su)
 
 // let frd = document.querySelector("h3")
 // let add = document.querySelector("#add")
-let check = 0
+// let check = 0
 
-add.addEventListener("click",function(){
+// add.addEventListener("click",function(){
     if(check==0){
         frd.innerHTML = "Friend"
         frd.style.color = "green"
