@@ -677,7 +677,7 @@ console.log(su)
         // frd.innerHTML = "Lover"
         // frd.style.color = "red"
         // add.innerHTML = "Friend"
-        check = 0
+        // check = 0
     }
 })
 
