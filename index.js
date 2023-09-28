@@ -664,7 +664,7 @@ console.log(su)
 //------------------------------------------------------------------------------
 
 // let frd = document.querySelector("h3")
-let add = document.querySelector("#add")
+// let add = document.querySelector("#add")
 let check = 0
 
 add.addEventListener("click",function(){
