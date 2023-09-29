@@ -652,14 +652,14 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-// const divi = (x) =>{
-//     return x / 2
-// }
+const divi = (x) =>{
+    return x / 2
+}
 
-// let a = prompt('enter a number to be divided by 2')
-// a = Number.parseInt(a)
-// let aa = divi(a)
-// document.write(`The value of ${a} Divided by 2 is equal to ${aa}`)
+let a = prompt('enter a number to be divided by 2')
+a = Number.parseInt(a)
+let aa = divi(a)
+document.write(`The value of ${a} Divided by 2 is equal to ${aa}`)
 
 //------------------------------------------------------------------------------
 
