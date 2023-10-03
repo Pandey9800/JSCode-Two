@@ -547,7 +547,7 @@ console.log(su)
 
 //------------------------------------------------------------------------------
 
-// first.insertAdjacentHTML('beforebegin','<p>Hello</p>')
+first.insertAdjacentHTML('beforebegin','<p>Hello</p>')
 // first.insertAdjacentHTML('afterend','<p>Bye</p>')
 
 //------------------------------------------------------------------------------
