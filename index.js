@@ -422,7 +422,7 @@ ct[2].style.color = 'green'
 document.querySelector('.this').style.color = 'yellow'
 document.querySelector('.this').style.background = 'darkblue'
 
-// console.log(document.getElementsByTagName('a'))
+console.log(document.getElementsByTagName('a'))
 // console.log(document.querySelector('.card').getElementsByTagName('a'))
 
 // console.log(document.getElementsByName('search'))
