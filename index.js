@@ -425,7 +425,7 @@ document.querySelector('.this').style.background = 'darkblue'
 console.log(document.getElementsByTagName('a'))
 console.log(document.querySelector('.card').getElementsByTagName('a'))
 
-// console.log(document.getElementsByName('search'))
+console.log(document.getElementsByName('search'))
 
 //------------------------------------------------------------------------------
 
