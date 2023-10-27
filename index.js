@@ -420,7 +420,7 @@ ct[1].style.color = 'blue'
 ct[2].style.color = 'green'
 
 document.querySelector('.this').style.color = 'yellow'
-// document.querySelector('.this').style.background = 'darkblue'
+document.querySelector('.this').style.background = 'darkblue'
 
 // console.log(document.getElementsByTagName('a'))
 // console.log(document.querySelector('.card').getElementsByTagName('a'))
